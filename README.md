@@ -111,7 +111,8 @@ array([[0.01544402],
 
 由于数据较少这里就不划分验证集了，我们这里采用黄金分割点的方式进行数据集划分即将67%的数据作为测试数据，剩下的33%作为测试数据
 
-``` train_size=int(len(dataset)*0.67)
+``` 
+train_size=int(len(dataset)*0.67)
 
 test_size=len(dataset)-train_size
 
