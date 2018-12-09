@@ -38,7 +38,7 @@ dataframe=pd.read_csv('data/international-airline-passengers.csv',usecols=[1])
 143	432
 144 rows × 1 columns
 ```
-接下来我们我要将这些整形数据转换为浮点数据以便以后送进神经网络中进行学习，这里可以通过pandas提供的相关工具进行转换一下即可。
+接下来我们我要将这些整形数据转换为浮点数组数据以便以后送进神经网络中进行学习，这里可以通过pandas提供的相关工具进行转换一下即可。
 
 ```
 dataset=dataframe.values #将整形数字转换为数组
